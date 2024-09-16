@@ -1,11 +1,15 @@
 body {
-  background-color: #7000ff;
+  background-color: #fff;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #333;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 li {
   float: left;
@@ -19,4 +23,7 @@ li a {
 }
 li a:hover {
   background-color: #111
+}
+.active {
+  background-color: #7000ff
 }
