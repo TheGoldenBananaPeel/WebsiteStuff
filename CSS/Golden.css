@@ -22,10 +22,10 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #111
+  background-color: #111;
 }
 .active {
-  background-color: #7000ff
+  background-color: #7000ff;
 }
 li a, .dropbtn {
   display: inline-block;
