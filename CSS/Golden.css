@@ -2,11 +2,12 @@ body {
   background-color: #fff;
 }
 ul {
+    /*Navbar stuff*/
   list-style-type: none;
   margin: 0;
   padding: 0;
-  color: #fff;
-  background-color: #333;
+  color: #ffffff;
+  background-color: #757575;
   position: fixed;
   top: 0;
   width: 100%;
@@ -23,9 +24,11 @@ li a {
 }
 li a:hover {
   background-color: #111;
+  color: white;
 }
 .active {
   background-color: #7000ff;
+  color: white;
 }
 li a, .dropbtn {
   display: inline-block;
